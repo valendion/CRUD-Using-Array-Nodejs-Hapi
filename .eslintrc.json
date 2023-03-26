@@ -10,6 +10,18 @@
   "rules": {
     "no-console": "off",
     "no-underscore-dangle": "off"
-  }
+  },
+  "trailing-comma": [
+    true,
+    {
+      "singleline": "always",
+      "multiline": {
+        "objects": "always", // <==================
+        "arrays": "always",
+        "functions": "never",
+        "typeLiterals": "ignore"
+      }
+    }
+  ]
 }
 
