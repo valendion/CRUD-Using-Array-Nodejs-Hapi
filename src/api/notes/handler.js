@@ -102,4 +102,3 @@ class NotesHndler {
 }
 
 module.exports = NotesHndler;
-
