@@ -1,0 +1,4 @@
+node_module
+notes-api-web-server.pem
+.env
+.prod.env
